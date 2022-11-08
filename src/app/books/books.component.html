@@ -1,0 +1,22 @@
+<h2>Immanuel Kant books!</h2>
+
+
+<Button (click)="handleClick()" [disabled] = isDisabled >Show books</Button>
+<input type ="text" (input)="handleInput($event)"/>
+
+<p>Welcome {{ myName }}</p>
+
+<ul>
+    <li>
+        <img [src]=" src " width="100px" [alt]="name"/>
+
+        {{name}} by {{author}}
+    </li>
+
+       <li>
+        <img [src]=" src2 " width="100px" [alt]=" name"/>
+
+        {{name2}} by {{author}}
+    </li>
+
+</ul>
