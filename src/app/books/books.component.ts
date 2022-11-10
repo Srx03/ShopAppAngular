@@ -52,6 +52,8 @@ export class BooksComponent implements OnInit {
 
   ];
 
+  card: Book[] = []
+
  
 
   isShowing: boolean = true;
@@ -59,6 +61,10 @@ export class BooksComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addToCard(book: Book){
+      console.log(book);
   }
 
 
