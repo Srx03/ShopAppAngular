@@ -4,4 +4,21 @@
     width: 100px;
     height: 150px;
     border-radius: 8%;
+    margin: auto;
+}
+
+.book-container{
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    width: auto;
+    height: 350px;
+}
+
+.button-style{
+    background-color: rgb(245, 200, 1);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
 }

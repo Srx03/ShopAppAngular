@@ -9,9 +9,10 @@ import { BooksService } from './books/books.service';
 import { BooksModule } from './books/books.module';
 import { CartComponent } from './cart/cart.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
-    declarations: [AppComponent, CartComponent],
+    declarations: [AppComponent, CartComponent, LoginComponent],
     imports: [BrowserModule, FormsModule, BooksModule, AppRoutingModule],
 
     bootstrap: [AppComponent]
